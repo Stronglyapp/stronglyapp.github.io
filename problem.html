@@ -6,24 +6,48 @@
 	  <link data-turbolinks-track="true" href="application.css" media="all" rel="stylesheet">
 	  <script src="bootstrap.min.js"></script>
 	  <script src="bootstrap-theme.js"></script>	
+
+	  <!-- Google Analytics Tracking ID -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50125353-1', 'stronglyapp.com');
+		  ga('send', 'pageview');
+
+		</script>	  	  
 	</head>
 	<body>		
 		<div class="container">
-			<h1>Strongly
-				<br/>
-				<small>The problem</small>
-			</h1>
-			<div class="well">
-				<p>
-					You want to send a message to multiple contacts and want an answer from each of them? Then sending emails via CC or BCC is not the best choice.
-					<ul>
-						<li>When sending an email with all contacts in CC, all contacts are visible to everybody. Many people will simply <b>not respond</b> as they <b>hide in the mass</b>. <b>"Not-me"</b> or <b>"Somebody-else"</b>	 syndrome. </li>
-						<li>When sending an email with all contacts in BCC, each recepient receives an impersonal email. People identify such emails as <b>SPAM</b> or <b>unfriendly</b>. No salutation at all is <b>rude</b>. </li>
-					</ul>
-				
-					Strongly solves that problem for you. 
-				</p>
-			</div>
+			<div class="jumbotron">
+				<h1>Strongly
+
+					<div class="pull-right">
+	        <a href="https://twitter.com/share" class="twitter-share-button" data-via="StronglyApp" data-size="large" data-hashtags="stronglyapp">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+					<a href="https://twitter.com/StronglyApp" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @StronglyApp</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					</div>
+
+					<br/>		
+					<small>The problem</small>
+				</h1>
+				<div class="well">
+					<p>
+						You want to send a message to multiple contacts and want an answer from each of them? Then sending emails via CC or BCC is not the best choice.
+						<ul>
+							<li>When sending an email with all contacts in CC, all contacts are visible to everybody. Many people will simply <b>not respond</b> as they <b>hide in the mass</b>. <b>"Not-me"</b> or <b>"Somebody-else"</b>	 syndrome. </li>
+							<li>When sending an email with all contacts in BCC, each recepient receives an impersonal email. People identify such emails as <b>SPAM</b> or <b>unfriendly</b>. No salutation at all is <b>rude</b>. </li>
+						</ul>
+					
+						Strongly solves that problem for you. 
+					</p>
+				</div>
+
+      </div>
 		</div>
 	</body>
 </html>		
